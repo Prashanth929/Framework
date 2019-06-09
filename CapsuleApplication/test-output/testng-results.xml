@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="163929" started-at="2019-06-09T02:55:13Z" finished-at="2019-06-09T02:57:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="163929" started-at="2019-06-09T02:55:13Z" finished-at="2019-06-09T02:57:57Z">
+      <class name="com.CapsuleApplication.Test.PeoplePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CapsuleApplication.Test.PeoplePageTest@29ee9faa]" name="setup" is-config="true" duration-ms="18723" started-at="2019-06-09T08:26:14Z" finished-at="2019-06-09T08:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.CapsuleApplication.Test.PeoplePageTest@29ee9faa]" name="verifyNewContact" duration-ms="29921" started-at="2019-06-09T08:26:32Z" data-provider="getTestData" finished-at="2019-06-09T08:27:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bond]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Neon]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation Engineer]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[walmart ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[testing@gmail.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[DenMark,Australia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewContact -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.CapsuleApplication.Test.PeoplePageTest@29ee9faa]" name="teardown" is-config="true" duration-ms="879" started-at="2019-06-09T08:27:02Z" finished-at="2019-06-09T08:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.CapsuleApplication.Test.PeoplePageTest -->
+      <class name="com.CapsuleApplication.Test.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CapsuleApplication.Test.LoginPageTest@4678c730]" name="setup" is-config="true" duration-ms="15007" started-at="2019-06-09T08:25:13Z" finished-at="2019-06-09T08:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginPageTitle()[pri:1, instance:com.CapsuleApplication.Test.LoginPageTest@4678c730]" name="validateLoginPageTitle" duration-ms="35" started-at="2019-06-09T08:25:28Z" finished-at="2019-06-09T08:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.CapsuleApplication.Test.LoginPageTest@4678c730]" name="teardown" is-config="true" duration-ms="709" started-at="2019-06-09T08:25:28Z" finished-at="2019-06-09T08:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CapsuleApplication.Test.LoginPageTest@4678c730]" name="setup" is-config="true" duration-ms="14227" started-at="2019-06-09T08:27:03Z" finished-at="2019-06-09T08:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateLoginButton()[pri:2, instance:com.CapsuleApplication.Test.LoginPageTest@4678c730]" name="validateLoginButton" duration-ms="24587" started-at="2019-06-09T08:27:18Z" finished-at="2019-06-09T08:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginButton -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.CapsuleApplication.Test.LoginPageTest@4678c730]" name="teardown" is-config="true" duration-ms="836" started-at="2019-06-09T08:27:42Z" finished-at="2019-06-09T08:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.CapsuleApplication.Test.LoginPageTest -->
+      <class name="com.CapsuleApplication.Test.DashBoardPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CapsuleApplication.Test.DashBoardPageTest@6767c1fc]" name="setup" is-config="true" duration-ms="38958" started-at="2019-06-09T08:25:28Z" finished-at="2019-06-09T08:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validateDashBoardPageTitle()[pri:1, instance:com.CapsuleApplication.Test.DashBoardPageTest@6767c1fc]" name="validateDashBoardPageTitle" duration-ms="9" started-at="2019-06-09T08:26:07Z" finished-at="2019-06-09T08:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDashBoardPageTitle -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.CapsuleApplication.Test.DashBoardPageTest@6767c1fc]" name="teardown" is-config="true" duration-ms="1031" started-at="2019-06-09T08:26:07Z" finished-at="2019-06-09T08:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.CapsuleApplication.Test.DashBoardPageTest@6767c1fc]" name="setup" is-config="true" duration-ms="12520" started-at="2019-06-09T08:27:43Z" finished-at="2019-06-09T08:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validatePeopleOrganizationLink()[pri:2, instance:com.CapsuleApplication.Test.DashBoardPageTest@6767c1fc]" name="validatePeopleOrganizationLink" duration-ms="385" started-at="2019-06-09T08:27:55Z" finished-at="2019-06-09T08:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePeopleOrganizationLink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.CapsuleApplication.Test.DashBoardPageTest@6767c1fc]" name="teardown" is-config="true" duration-ms="683" started-at="2019-06-09T08:27:56Z" finished-at="2019-06-09T08:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.CapsuleApplication.Test.DashBoardPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

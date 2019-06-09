@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.CapsuleApplication.Listener.TestNGListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.CapsuleApplication.Test.PeoplePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyNewContact"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.CapsuleApplication.Test.PeoplePageTest -->
+      <class name="com.CapsuleApplication.Test.DashBoardPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="validatePeopleOrganizationLink"/>
+          <include name="setup"/>
+          <include name="validateDashBoardPageTitle"/>
+        </methods>
+      </class> <!-- com.CapsuleApplication.Test.DashBoardPageTest -->
+      <class name="com.CapsuleApplication.Test.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="validateLoginButton"/>
+          <include name="validateLoginPageTitle"/>
+        </methods>
+      </class> <!-- com.CapsuleApplication.Test.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
