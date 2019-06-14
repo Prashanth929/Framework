@@ -1,4 +1,4 @@
-#Page Object Model with TestNG Framework abd Data Driven Framework.
+#Page Object Model with TestNG Framework and Data Driven Framework.
 
 Technologies Used
 
